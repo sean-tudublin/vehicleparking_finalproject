@@ -26,6 +26,7 @@ public class ManagementPage extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jbtnRegisterUser.setForeground(new java.awt.Color(255, 0, 51));
         jbtnRegisterUser.setText("Register new managment user");
         jbtnRegisterUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -33,8 +34,7 @@ public class ManagementPage extends javax.swing.JFrame {
             }
         });
 
-        jLabel2.setText("Unknown login");
-
+        jbtnRegisterVehicle.setForeground(new java.awt.Color(255, 153, 0));
         jbtnRegisterVehicle.setText("Register new vehicle");
         jbtnRegisterVehicle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -42,6 +42,7 @@ public class ManagementPage extends javax.swing.JFrame {
             }
         });
 
+        jbtnSearchVehicle.setForeground(new java.awt.Color(204, 204, 0));
         jbtnSearchVehicle.setText("Search for vehicle");
         jbtnSearchVehicle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,6 +50,7 @@ public class ManagementPage extends javax.swing.JFrame {
             }
         });
 
+        jbtnRemoveVehicle.setForeground(new java.awt.Color(0, 204, 51));
         jbtnRemoveVehicle.setText("Remove vehicles");
         jbtnRemoveVehicle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,6 +58,7 @@ public class ManagementPage extends javax.swing.JFrame {
             }
         });
 
+        btnRemoveUser.setForeground(new java.awt.Color(0, 51, 255));
         btnRemoveUser.setText("Remove management user");
         btnRemoveUser.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,6 +66,7 @@ public class ManagementPage extends javax.swing.JFrame {
             }
         });
 
+        jbtnCheckDurationVehicle.setForeground(new java.awt.Color(153, 0, 153));
         jbtnCheckDurationVehicle.setText("Check duration of vehicle");
         jbtnCheckDurationVehicle.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,7 +118,7 @@ public class ManagementPage extends javax.swing.JFrame {
                 .addComponent(jbtnCheckDurationVehicle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jbtnOverdueVehicles)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 18, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
                 .addComponent(jLabel2)
                 .addContainerGap())
         );
