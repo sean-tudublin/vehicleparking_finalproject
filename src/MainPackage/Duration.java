@@ -21,7 +21,7 @@ public class Duration {
         int[] idduration = new int[2];
         PreparedStatement pst = null;
         try {
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/vehicleparkingDB","sean","123");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/vehicleparkingDB","sean","1234");
             Statement statement = connection.createStatement();  
 
             String sqlQuery = "SELECT idvehicles, duration FROM vehicles";
